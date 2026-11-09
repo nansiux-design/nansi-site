@@ -225,3 +225,29 @@ summary::-webkit-details-marker { display: none; }
 @keyframes flip-postcard {
   from { opacity: 0; transform: perspective(800px) rotateX(-60deg) translateY(-.35rem); }
 }
+
+.hero { display: grid; grid-template-columns: 1.12fr 1fr; align-items: center; gap: 3rem; padding-block: clamp(3rem, 6vw, 5.8rem); }
+.hero h1 { color: var(--wine); font-size: clamp(3.6rem, 7.8vw, 8rem); line-height: .88; letter-spacing: -.066em; }
+.hero-place { color: var(--wine); margin-bottom: 1rem; }
+.hero-line { font-size: clamp(1.05rem, 2vw, 1.33rem); max-width: 28ch; margin-top: 1.55rem; }
+.hero-studies { color: var(--muted); font-size: .84rem; margin-top: .85rem; }
+.hero-collage { position: relative; isolation: isolate; display: grid; justify-items: center; min-width: 0; padding: 1rem 0 1.7rem; }
+.hero-collage::before { content: ""; position: absolute; z-index: -2; inset: 12% 8% 15%; transform: rotate(9deg); background: repeating-linear-gradient(90deg, #9c745133 0 1px, transparent 1px 15px), repeating-linear-gradient(#9c745133 0 1px, transparent 1px 15px), #e6d4b7; }
+.hero-ticket { position: absolute; z-index: -1; top: 14%; left: 3%; padding: .85rem; transform: rotate(-13deg); background: #edc6b4; border: 1px dashed #9b6a61; font-size: .65rem; letter-spacing: .1em; }
+.hero-photo { position: relative; width: 63%; padding: .7rem; transform: rotate(-6deg); background: #fffbf0; box-shadow: 0 .7rem 1.6rem #3c1b1830; }
+.hero-photo::before { content: ""; position: absolute; top: -.55rem; left: 33%; width: 35%; height: 1.55rem; background: #e4bc8dbe; transform: rotate(6deg); }
+.hero-photo img { aspect-ratio: 4 / 5; object-fit: cover; object-position: center 59%; }
+.hero-photo figcaption { padding-top: .6rem; text-align: center; font: 600 1.35rem/1.15 var(--hand); color: var(--muted); }
+.hero-stamp { position: absolute; right: 3%; bottom: 10%; width: clamp(4.3rem, 9vw, 7rem); transform: rotate(13deg); filter: drop-shadow(0 3px 4px #3c1b1837); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-ticket { animation: lay-cutout .65s 1.65s var(--settle) both; }
+  .hero-photo { animation: lay-cutout .78s 1.8s var(--settle) both; }
+  .hero-stamp { animation: lay-cutout .45s 2.15s var(--settle) both; }
+}
+
+@media (max-width: 700px) {
+  .hero { grid-template-columns: minmax(0, 1fr); gap: 1.65rem; padding-block: 2.5rem 1.8rem; }
+  .hero h1 { font-size: clamp(2.9rem, 11.5vw, 4.4rem); }
+  .hero-collage { width: min(100%, 25rem); margin-inline: auto; }
+}
