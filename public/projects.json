@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Online Pay: making payment choice feel clear",
+    "tag": "01 / MATTRESS FIRM · COMMERCE · 2024–2025",
+    "focus": "Customers struggled to tell three financing options apart at checkout. Session data showed drop-off at payment selection.",
+    "image": "online-pay.png",
+    "alt": "Mattress Firm Online Pay checkout project cover from Nansi’s portfolio",
+    "url": "https://www.figma.com/proto/XXnvyD3x2PfNBTRGx8fcpU/Online-Pay-Case-study?node-id=162-829&scaling=scale-down-width&content-scaling=fixed&page-id=162%3A790&hide-ui=1",
+    "role": "Senior UX Designer · Royal Cyber",
+    "sections": [
+      [
+        "Problem",
+        "Customers struggled to tell three financing options apart at checkout. Session data showed drop-off at payment selection."
+      ],
+      [
+        "My contribution",
+        "I led research and UX. Fourteen interviews helped us focus on explaining financing options in plain language and showing details when shoppers needed them."
+      ],
+      [
+        "Reported outcome",
+        "The published case study reports 17% higher checkout conversion and 3× financing adoption."
+      ]
+    ]
+  },
+  {
+    "title": "Aroya Cruise: one connected guest journey",
+    "tag": "02 / CRUISE SAUDI · TRAVEL · 2025–2026",
+    "focus": "Guests needed a single experience across booking, trip preparation, and life onboard.",
+    "image": "aroya.png",
+    "alt": "Aroya Cruise mobile experience project cover from Nansi’s portfolio",
+    "url": "https://www.figma.com/proto/tfjlSwXrJV33OxZfmU2uwi/Aroya-Cruise-CS?node-id=146-2909&scaling=scale-down-width&content-scaling=fixed&page-id=146%3A2908&hide-ui=1",
+    "role": "Senior UX Designer · Royal Cyber",
+    "sections": [
+      [
+        "Problem",
+        "Guests needed a single experience across booking, trip preparation, and life onboard."
+      ],
+      [
+        "My contribution",
+        "I led discovery workshops and helped sequence the phased MVP. I designed the English and Arabic experience and worked with the team to define success metrics."
+      ],
+      [
+        "Reported outcome",
+        "The MVP launched with positive early usability feedback."
+      ]
+    ]
+  },
+  {
+    "title": "DreamHUB: consistency as product infrastructure",
+    "tag": "03 / MATTRESS FIRM · ENTERPRISE · 2025",
+    "focus": "Inconsistent patterns made Mattress Firm’s internal platform harder to build and maintain.",
+    "image": "dreamhub.jpg",
+    "alt": "DreamHUB design system components and colour palette from Nansi’s portfolio",
+    "url": "https://www.behance.net/gallery/229377149/Design-System-DreamHUB-Case-Study",
+    "role": "Senior UX Designer · Royal Cyber",
+    "sections": [
+      [
+        "Problem",
+        "Inconsistent patterns made Mattress Firm’s internal platform harder to build and maintain."
+      ],
+      [
+        "My contribution",
+        "I built and maintained a shared library of components and patterns that design and engineering could reuse."
+      ],
+      [
+        "Reported outcome",
+        "My résumé reports a 40% increase in delivery velocity."
+      ]
+    ]
+  }
+]
